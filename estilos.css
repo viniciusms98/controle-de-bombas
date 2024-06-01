@@ -1,0 +1,348 @@
+
+    /*CONFIGURAÇÃO PC*/
+   @media (min-width: 701px){
+      .button {
+          border: none;
+          color: white;
+          padding: 5px 5px;
+          width: 90%;
+          min-width: 130px;
+          height: 20%;
+          min-height: 42px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 130%;
+          margin: 4px 6px;
+          cursor: pointer;
+          text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+          border-radius: 0.5em ;
+          
+        }
+        
+          .button1 {background-color: #e52727;box-shadow: 3px 3px 0 1px #8c0202;} 
+          .button2 {background-color: #00ba13;box-shadow: 3px 3px 0 1px rgb(0, 73, 25);}    
+          .button:active{
+                box-shadow:inset 3px 3px 3px#313131;
+                transform: translate(3px,3px);
+        }
+       .container{
+        text-shadow: 1px 1px 1px rgba(72, 72, 72, 0.5);
+        justify-content: center;
+        padding: 5px 5px 5px 5px;
+        display: flex;
+        margin: 0px;
+        flex-wrap:wrap;  
+       }
+       .container0{
+        text-shadow: 1px 1px 1px rgba(72, 72, 72, 0.5);
+        justify-content: center;
+        padding: 5px 5px 5px 5px;
+        display: flex;
+        margin: 0px;
+        flex-wrap:wrap;
+       
+       } 
+      section0{
+        margin:5px;
+        width: 100%;
+        height: 2%;
+        text-align: center;
+        background-color: rgb(226, 250, 250);
+        padding: 10px;
+        box-shadow: 3px 3px 0 1px rgb(222, 222, 222);
+        border-radius: 1.5em;
+      } 
+      section1{
+        margin:5px;
+        width: 100%;
+        height: 15%;
+        text-align: center;
+        background-color: rgb(226, 250, 250);
+        padding: 10px;
+        margin: 2%;
+        padding: 10px;
+        box-shadow: 3px 3px 0 1px rgb(222, 222, 222);
+        border-radius: 1.5em;
+      } 
+      section2{
+        margin:2%;
+        width: 25%;
+        text-align: left;
+        background-color: rgb(226, 250, 250);
+        padding: 10px;
+        box-shadow: 3px 3px 0 1px rgb(222, 222, 222);
+        border-radius: 1.5em;
+        min-width: 280px;
+      }
+      .barra{
+        width: 100%;
+        height: 15%;
+        border-radius: 10px;
+        border: blue;
+        background-color: rgb(235, 235, 235);
+        box-shadow: 3px 3px 0 1px rgb(182, 182, 182);
+      }
+      .barrap{
+        color: azure;
+        font-size: 350%;
+        font-weight: bold;
+        height: 90%;
+        border-radius: 8px;
+        font-weight: bold ;
+        text-shadow: 2px 2px 3px rgb(0, 0, 0);
+        background-color: rgb(0, 123, 255);
+        width: 100%;
+        text-align: center;
+        box-shadow: 3px 3px 0 1px rgb(0, 66, 148);
+      }
+      body,html{
+        height: 100%;
+        margin:0;
+      }
+      .bg{
+        background-image: url("imagens/fundo.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+        background-attachment: fixed;
+      } 
+
+      .tituloprincipal{
+        font-size: 300%;
+        margin: 1%;
+        font-weight: bold ;
+      }
+      .titulotanque{
+        font-size: 200%;
+        margin:1%
+        
+      
+      }
+      .titulos{
+        font-size: 180%;
+        margin: 1%;
+        display: inline-block;
+        width: 45%;
+        font-weight: bold;
+
+      }
+      
+      .rodape{
+        text-align: center;
+      }
+
+      .status-desligada{
+        display: inline-block;
+          border: none;
+          color: rgb(56, 1, 1);
+          padding: 1% 1%;
+          width: 40%;
+          height: 20%;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 140%;
+          font-weight: bold ;
+          margin: 8px 6px;
+          background-color: #f69797;
+
+          border-radius: 5em ;
+      }
+  .status-ligada{
+
+          display: inline-block;
+          border: none;
+          color: rgb(10, 56, 1);
+          padding: 1% 1%;
+          width: 40%;
+          height: 20%;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 140%;
+          font-weight: bold ;
+          margin: 8px 6px;
+          background-color: #9af697;
+
+          border-radius: 5em ;
+       
+      }
+      
+
+      }
+    
+    /*CONFIGURAÇÃO MOBILE*/
+    @media (max-width:700px){
+        .button {
+          border: none;
+          color: white;
+          padding: 2% 2%;
+          width: 90%;
+          height: 30%;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 250%;
+          font-weight: bold ;
+          margin: 4px 6px;
+          cursor: pointer;
+          text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+          border-radius: 0.5em ;
+          
+        }
+        
+          .button1 {background-color: #e52727;box-shadow: 3px 3px 0 1px #8c0202;} 
+          .button2 {background-color: #00ba13;box-shadow: 3px 3px 0 1px rgb(0, 73, 25);}    
+          .button:active{
+                box-shadow:inset 3px 3px 3px#313131;
+                transform: translate(3px,3px);
+        }
+       .container{
+        border: 0px;
+        padding: 0% 0%;
+
+        text-shadow: 1px 1px 1px rgba(72, 72, 72, 0.5);
+        justify-content: center;
+        display: flex;
+        margin: 0px;
+        flex-wrap:wrap;  
+       }
+       .container0{
+        padding: 0% 0%;
+        border: 0px;
+        text-shadow: 1px 1px 1px rgba(72, 72, 72, 0.5);
+        justify-content: center;
+        padding: 5px 5px 5px 5px;
+        display: flex;
+        margin: 0px;
+        flex-wrap:wrap;  
+       } 
+      section0{
+        font-size: 200%;
+        margin:5px;
+        width: 100%;
+        height: 2%;
+        text-align: center;
+        background-color: rgb(226, 250, 250);
+        padding: 0px;
+        box-shadow: 3px 3px 0 1px rgb(222, 222, 222);
+        border-radius: 1.5em;
+      } 
+      section1{
+        font-size: 400%;
+        text-align: center;
+        width: 100%;
+        height: 25%;
+        margin: 2%;
+        background-color: rgb(226, 250, 250);
+        padding: 10px;
+        margin: 1% 1%;
+        padding: 3%;
+        box-shadow: 3px 3px 0 1px rgb(222, 222, 222);
+        border-radius: 1em;
+      } 
+      section2{
+        margin:2%;
+        width: 90%;
+        height: 40%;
+        padding: 2% 2%;
+        min-width: 300px;
+        text-align: left;
+        background-color: rgb(226, 250, 250);
+      
+        box-shadow: 3px 3px 0 1px rgb(222, 222, 222);
+        border-radius: 1.5em;
+      }
+      .barra{
+        width: 100%;
+        height: 100%;
+        font-weight: bold ;
+        border-radius: 0.3em;
+        border: blue;
+        background-color: rgb(235, 235, 235);
+        box-shadow: 1% 1% 0 0.5% rgb(118, 118, 118);
+      }
+      .barrap{
+        color: azure;
+        height: 100%;
+        font-size: 100%;
+        height: 90%;
+        width:100%;
+        font-weight: bold ;
+        text-shadow: 2px 2px 3px rgb(0, 0, 0);
+        border-radius: 0.3em;
+        background-color: rgb(0, 123, 255);
+        text-align: center;
+        box-shadow: 3px 3px 0 1px rgb(0, 66, 148);
+      }
+      body,html{
+        height: 100%;
+        margin:0;
+      }
+      .bg{
+        background-image: url("imagens/fundo.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+        background-attachment: fixed;
+      }
+      .tituloprincipal{
+        font-size: 200%;
+        margin: 1%;
+        font-weight: bold ;
+      }
+      .titulotanque{
+        font-size: 75%;
+        margin:1%
+      }
+
+      .titulos{
+        font-size: 250%;
+        margin: 1%;
+        display: inline-block;
+        width: 45%;
+        font-weight: bold;
+
+      }
+      .rodape{
+        text-align: center;
+        font-size: 30px;
+      }
+    .status-desligada{
+        display: inline-block;
+          border: none;
+          color: rgb(56, 1, 1);
+          padding: 2% 2%;
+          width: 40%;
+          height: 20%;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 220%;
+          font-weight: bold ;
+          margin: 8px 6px;
+          background-color: #f69797;
+
+          border-radius: 5em ;
+      }
+    .status-ligada{
+          display: inline-block;
+          border: none;
+          color: rgb(10, 56, 1);
+          padding: 2% 2%;
+          width: 40%;
+          height: 20%;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 220%;
+          font-weight: bold ;
+          margin: 8px 6px;
+          background-color: #9af697;
+
+          border-radius: 5em ;
+       
+      }
+
+      }

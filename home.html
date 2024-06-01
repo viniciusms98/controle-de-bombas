@@ -1,0 +1,69 @@
+<!DOCTYPE html>                                                               <!--Tipo de Html-->
+<html lang="pt-br">                                                           <!--Linguagem da página-->
+  <head>
+
+    <title>Controle de Nível</title>                                          <!--Título da Aba-->
+    <link rel="icon" type="image/x-icon" href= "imagens/favicon.png">         <!--ícone da Aba-->
+    <meta charset="utf-8">                                                    <!--Padrão de Caracteres-->
+    <meta name="viewport" content="width=device-width, initial-scale=0.6">    <!--Definições de dimensões da página-->
+    <link rel="stylesheet" type="text/css" href="estilos.css">                <!--Referenciando o CSS usado nessa página-->
+
+
+    
+  
+  </head>
+
+  <body class="bg">                                     
+    </div>
+    <div class="container0">
+    <section0>
+      <div class="tituloprincipal">Monitoramento e Controle de Nível</div>   <!--Título da Página-->
+    </section0>
+    <section1>
+      <div class="titulotanque">Nível do Tanque</div>                        <!--Título da Barra-->
+      <div class="barra"><div class="barrap" id="valor-nivel"></div></div>   <!--Estrutura da Barra-->
+    </section1>
+
+    </div>
+
+    <div class="container">
+      <section2>
+          <div class="titulos">&nbsp Controle</div>                         <!--Título da DIV de Controle-->
+          <div id="statusmodo"></div>                                       <!--Status do modo- Ligado/Desligado-->
+          <button class="button button2" id="modoauto">Automático</button>  <!--Botão de Automático-->
+          <button class="button button1" id="modomanual">Manual</button>    <!--Botão de Manual-->
+          
+      </section2>
+      <section2>
+
+          <span class="titulos">&nbsp Bomba 1</span>                        <!--Título da DIV da Bomba 1-->
+          <div id="statusb1"></div>                                         <!--Status da Bomba1 (Ligada/Desligada)-->
+          <button class="button button2" id="ligb1">  Ligar  </button>      <!-- Botão de Ligar bomba 1-->
+          <button class="button button1" id="desb1">Desligar</button>       <!-- Botão de Desligar bomba 1-->
+          
+      </section2>
+
+      <section2> 
+          <span class="titulos">&nbsp Bomba 2</span>                        <!--Título da DIV da Bomba 2-->
+          <div id="statusb2"></div>                                         <!--Status da Bomba 2 (Ligada/Desligada)-->
+          <button class="button button2" id="ligb2"> Ligar</button>         <!-- Botão de Ligar bomba 2-->
+          <button class="button button1" id="desb2">Desligar</button>       <!-- Botão de Desligar bomba 2-->
+          
+        </section2>
+     </div>
+     
+
+     <!-- Rodapé da Página-->
+     <footer class="rodape">
+      <p>© 2023 Desenvolvido por <a href="https://www.linkedin.com/in/vinicius-moreira-souza/">Vinicius Moreira Souza</a>.</p>  <!--Dados do Rodapé-->
+    </footer>
+   
+    <!-- Links para conexão com o Firebase-->
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-database.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   
+    <!--Chamando o arquivo de Javascript da página-->
+    <script src="script.js"></script>
+  </body>
+</html>

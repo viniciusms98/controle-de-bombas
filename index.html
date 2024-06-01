@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">                                                 <!-- Padrão de Caracteres  -->
+    <link rel="icon" type="image/x-icon" href= "imagens/favicon.png">      <!-- Mini ícone da Aba-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">                  <!-- Compatibilidade com o Navegador-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Definições de dimensões da página-->
+   
+    <title>Login: Controle de Nivel</title>                  <!-- Título da Aba--> 
+
+    <style> 
+         *{
+            box-sizing: border-box;
+        }
+       
+        @media (max-width:940px){                          /*Definição de body para dispositivos pequenos*/
+            body{
+            width: 100%;
+            height: 100%;
+            background-image: url("imagens/fundo.png");
+            background-repeat: no-repeat;
+            background-size: 250%;
+            }
+        }
+        @media(min-width: 941px){                         /*Definição de body para dispositivos grandes*/
+            body{
+            width: 100%;
+            height: 100%;
+            background-image: url("imagens/fundo.png");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            }
+
+        }
+        
+        form{                                           /*Tamanho e estrutura do formulário*/
+            width: 300px;
+            margin: 100px auto;
+            text-align: center;
+        }
+
+        input{                                         /*Dimensões dos retangulos de login, senha e "Enviar"*/
+            display: block;
+            margin: 10px auto;
+            width: 250px;
+            height: 30px;
+            
+        }
+       
+        footer {                                      /*Padrão para o rodapé*/
+            display: flex;
+            justify-content: center;
+        }
+        .titulo{                                      /*Classe "titulo" para formatar o titulo da pagina*/ 
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding: 2% 2%;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <h1 class= "titulo">Monitoramento e Controle de Nível</h1>                  <!-- Título da Página-->
+
+    <form>                                                                      <!-- Tag do formulário-->
+
+        <h3>Login</h3>                                                          <!--Título do formulário-->
+        <input type="text" placeholder="Login" id="login">                      <!--Input do login-->
+        <input type="password" placeholder="Senha" id="senha">                  <!--Input da senha-->
+        <input type="submit" value="Entrar" onclick="logar(); return false">    <!--Botão de Entrar/ Ao clicar, chama a ação logar-->
+
+    </form>
+
+
+    
+    <footer>                                                                    <!-- Rodapé da Página-->
+
+        <p>© 2023 Desenvolvido por <a href="https://www.linkedin.com/in/vinicius-moreira-souza/">Vinicius Moreira Souza</a>.</p>    <!--Dados do Rodapé-->
+
+      </footer>
+
+    
+<!-- Links para conexão com o Firebase-->
+<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-database.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="script_login.js"></script>
+
+
+</body>
+</html>
