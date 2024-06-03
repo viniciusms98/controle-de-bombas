@@ -1,3 +1,11 @@
+/*-----------------------------------------
+----  Programa de automação de Bombas  ----  
+----                                   ----  
+----         Desenvolvido Por:         ----
+----      Vinicius Moreira Souza       ----
+----                                   ----
+-------------------------------------------*/
+
 //INSTALAÇÃO DE BIBLIOTECAS-----------------------------------------------
 #include <WiFi.h>                      //Biblioteca para conectar ao Wifi
 #include <IOXhop_FirebaseESP32.h>      //Biblioteca para se comunicar com Firebase
